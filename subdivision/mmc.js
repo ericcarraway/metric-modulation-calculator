@@ -20,25 +20,6 @@
      *
      */
     var NOTE_VALUES = {
-        'double-whole-note': 0.125,
-
-        'dotted-whole-note': (function () {
-            return 1 / 6; // 0.16666666
-        }()),
-
-        'whole-note': 0.25,
-
-        'dotted-half-note': (function () {
-            return 1 / 3; // 0.33333333
-        }()),
-
-        'half-note': 0.5,
-
-        'dotted-quarter-note': (function () {
-            return 2 / 3; // 0.66666666
-        }()),
-
-        'half-note-triplet': 0.75,
 
         'quarter-note': 1,
 
