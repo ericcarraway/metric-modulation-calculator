@@ -15,7 +15,9 @@ body, input {
     font-family:
         "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
         Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.5px;
     text-align: center;
 }
 
@@ -45,4 +47,8 @@ input {
 
 .logo img {
     max-width: 100px;
+}
+
+a {
+
 }
