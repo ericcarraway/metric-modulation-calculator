@@ -12,11 +12,11 @@
      * NOTE_VALUES['eighth-note']
      * // returns 2
      *
+     * NOTE_VALUES['eighth-note-triplet']
+     * // returns 3
+     *
      * NOTE_VALUES['sixteenth-note']
      * // returns 4
-     *
-     * NOTE_VALUES['half-note']
-     * // returns 0.5
      *
      */
     var NOTE_VALUES = {
@@ -28,11 +28,15 @@
             return 1 + (1 / 3); // 1.33333333
         }()),
 
-        'quarter-note-triplet': 1.5,
+        'quarter-note-5:3': (function () {
+            return 1 + (2 / 3); // 1.66666666
+        }()),
 
         'eighth-note': 2,
 
-        'eighth-note-quintuplet': 2.5,
+        'eighth-note-7:6': (function () {
+            return 2 + (1 / 3); // 2.33333333
+        }()),
 
         // could also be expressed as 'dotted-sixteenth-note'
         'eighth-note-4:3': (function () {
@@ -47,9 +51,18 @@
 
         'sixteenth-note': 4,
 
+        'sixteenth-note-7:6': (function () {
+            return 4 + (2 / 3); // 4.66666666
+        }()),
+
         'sixteenth-note-quintuplet': 5,
 
-        'sixteenth-note-triplet': 6
+        // could also be expressed as 'dotted-32nd-note'
+        'sixteenth-note-4:3': (function () {
+            return 5 + (1 / 3); // 5.33333333
+        }()),
+
+        'sixteenth-note-sextuplet': 6
     };
 
     /**
