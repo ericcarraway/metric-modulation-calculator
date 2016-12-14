@@ -63,22 +63,25 @@ input {
 
 /* ---------- FOOTER ---------- */
 .logo {
-    display: none; /* hide for now */
+    /* to hide: */
+    /*display: none;*/
 
     text-align: center;
     vertical-align: middle;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .logo img {
-    display: none; /* hide for now */
+    /* to hide: */
+    /*display: none;*/
 
     max-width: 100px;
 }
 
 .home-link {
-    display: none; /* hide for now */
+    /* to hide: */
+    /*display: none;*/
 
     font-family: sans-serif;
     font-style: normal;
